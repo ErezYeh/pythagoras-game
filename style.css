@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #2a9d8f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.card.revealed {
+    background-color: #cc80ff;
+}
